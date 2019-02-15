@@ -4,8 +4,6 @@
 
 This repository contains additional web parts to be supplied over and above the samples provided in the SharePoint sp-dev-fx-webparts repository.
 
-> Note: This repository uses the initial GA release of the SharePoint Framework.
-
 ### Prerequisites
 
 You will need the following:
@@ -13,6 +11,10 @@ You will need the following:
 * Node.js (v4 or above)
 * NPM (v3 or above)
 * Visual Studio Code (recommended)
+
+### Using SharePoint Framework Version 
+
+![drop](https://img.shields.io/badge/drop-1.6.0-green.svg)
 
 ### Using the samples
 

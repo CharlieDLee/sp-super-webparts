@@ -10,7 +10,11 @@ You will need the following:
 * NPM (v3 or above)
 * Visual Studio Code (recommended)
 
-### Using the samples
+### Using SharePoint Framework Version 
+
+![drop](https://img.shields.io/badge/drop-1.6.0-green.svg)
+
+### Buiding the Super Search web parts
 
 To build and start using this project, you'll need to clone and build it. 
 
@@ -25,7 +29,6 @@ Navigate to the cloned repo folder which should be the same as the repo name:
 ```
 cd sp-super-search
 ```
-
 
 Now run the following command to install the npm packages:
 
@@ -58,3 +61,7 @@ This package produces the following:
 * lib/* - intermediate-stage commonjs build artifacts
 * dist/* - the bundled script, along with other resources
 * deploy/* - all resources which should be uploaded to a CDN.
+
+###  Disclaimer
+
+THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.

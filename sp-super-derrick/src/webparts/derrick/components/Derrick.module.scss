@@ -1,0 +1,15 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.derrickWebPart {
+    width: calc(100% - 40px);
+    padding: 20px;
+    background: #f4f4f4;
+
+    .text {
+        float: left;
+        width: calc(100% - 110px);
+    }
+    img {
+        float: right;
+    }
+}

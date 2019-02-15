@@ -1,0 +1,184 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.superSearchResult {
+  width: 100%;
+
+  .superSearchByLetter {
+    display: table;
+    width: calc(100% - 1px);
+    padding-left: 1px;
+
+    div {
+      float: left;
+      width: calc(3.846% - 11px);
+      height: 17px;
+      margin-left: -1px;
+      padding: 5px;
+      background: #f3f3f3;
+      border: 1px #ebebeb;
+      border-style: solid solid none solid;
+      color: #c4c4c4;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        background: #ebebeb;
+      }
+      &.active {
+        background: #c4c4c4;
+        color: #777;
+      }
+    }
+    .showAll {
+      float: right;
+      width: 60px !important;
+    }
+    .all {
+      display: none;
+    }
+  }
+  .superSearchResults {
+    float: left;
+    width: calc(100% - 32px);
+    padding: 15px;
+    border: 1px solid #ebebeb;
+    background: #f3f3f3;
+
+    .superSearchPeople {
+      display: inline-table;
+      width: calc(20% - 10px);
+      margin: 15px 5px;
+      text-align: center;
+
+      .superSearchUserPhoto {
+        width: 70px;
+        height: 70px;
+        margin-left: calc(50% - 35px);
+        border-radius: 100%;
+        background-size: cover;
+        background-position: center;
+      }
+      .superSearchUserName {
+        font-size: 18px;
+        color: #019390;
+      }
+      .superSearchUserTitle {
+        display: block;
+        font-size: 14px;
+        color: #c4c4c4;
+      }
+      .icon {
+        margin: 5px;
+        path {
+          color: #c4c4c4;
+        }
+      }
+    }
+    .superSearchEverything {
+      width: calc(100% - 30px);
+      min-height: 30px;
+      padding: 15px;
+      border-bottom: 1px solid #ebebeb;
+
+      .icon {
+        float: left;
+        width: 30px;
+        margin-top: 5px;
+      }
+      .superSearchEverythingDetails {
+        float: right;
+        width: calc(100% - 35px);
+
+        .superSearchEverythingTitle {
+          font-size: 18px;
+          color: #019390;
+        }
+        .superSearchEverythingDetail {
+          float: left;
+          color: #aeaeae;
+          margin-right: 10px;
+
+          &::before {
+            content: '|';
+            margin-right: 10px;
+          }
+          &:nth-child(1) {
+            &::before {
+              content: '';
+              margin-right: 0px;
+            }
+          }
+          .superSearchEverythingDetailLabel {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .superSearchLoader {
+    float: left;
+    width: 100%;
+    text-align: center;
+
+    .superSearchLoadMore {
+      margin-top: -11px;
+
+      &.superSearchLoadEverything {
+        width: calc(100% + 32px);
+        margin-top: 24px;
+        margin-bottom: -62px;
+        margin-left: -16px;
+      }
+      hr {
+        float: left;    
+        height: 1px;
+        width: calc(50% - 45px);
+        margin-top: 10px;
+        border: none;
+        background: #c4c4c4;
+      }
+      span {
+        cursor: pointer;
+      }
+      .superSearchLoadMoreArrow {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .superSearchByLetter {
+    div {
+      width: calc(7.69% - 11px) !important;
+      height: 20px !important;
+    }
+  }
+  .superSearchPeople {
+    width: calc(25% - 10px) !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .superSearchPeople {
+    width: calc(33% - 10px) !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .superSearchByLetter {
+    div {
+      width: calc(11.11% - 11px) !important;
+      height: 23px !important;
+      padding-top: 10px !important;
+    }
+    .showAll {
+      display: none !important;
+    }
+    .all {
+      display: initial !important;
+    }
+  }
+  .superSearchPeople {
+    width: calc(50% - 10px) !important;
+  }
+}

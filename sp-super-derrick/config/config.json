@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "derrick-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/derrick/DerrickWebPart.js",
+          "manifest": "./src/webparts/derrick/DerrickWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "PropertyFieldColorPicker": "node_modules/@pnp/spfx-property-controls/lib/PropertyFieldColorPicker.js"
+  },
+  "localizedResources": {
+    "DerrickWebPartStrings": "lib/webparts/derrick/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

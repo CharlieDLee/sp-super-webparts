@@ -1,0 +1,79 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.superSearchBox {
+  width: 90%;
+  margin-left: 5%;
+
+  .superSearchNavigation {
+    position: relative;
+    width: 100%;
+
+    .superSearchNavigationItem {
+      float: left;
+      width: 100px;
+      height: 20px;
+      padding: 11px 10px 10px 10px;
+      font-size: 14px;
+      text-align: center;
+      background: transparent;
+      color: #666;
+      cursor: pointer;
+
+      &.active {
+        width: 98px;
+        height: 19px;
+        padding: 10px;
+        border-width: 1px;
+        border-color: #ebebeb;
+        border-style: solid solid none solid;
+        background: #f3f3f3;
+        color: #757575;
+      }
+    }
+  }
+  .superSearchBody {
+    float: left;
+    width: calc(100% - 60px);
+    margin-top: -3px;
+    padding: 30px;
+    border: 1px solid #ebebeb;
+    background: #f3f3f3;
+
+    .superSearchInput {
+      float: left;
+      width: calc(100% - 222px);
+      height: 28px;
+      padding: 5px 10px;
+      border: 1px solid #019390;
+      color: #000;
+      font-size: 17px;
+    }
+    .superSearchButton {
+      float: left;
+      width: 200px;
+      height: 40px;
+      background: #019390;
+      border: none;
+      color: #FFF;
+      font-size: 17px;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .superSearchInput {
+    width: calc(100% - 22px) !important;
+  }
+  .superSearchButton {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .superSearchBody {
+    width: calc(100% - 20px) !important;
+    padding: 10px !important;
+  }
+}

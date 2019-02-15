@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "cd41414d-7a30-4a73-97d2-a7b8b535156c",
+  "alias": "SuperSearchResultsWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Cielo Costa" },
+    "title": { "default": "Super Search Results" },
+    "description": { "default": "Custom search results" },
+    "officeFabricIconFontName": "Page",
+    "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAcCAYAAAATFf3WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAJOgAACToAYJjBRwAAAK0SURBVFhHzVdLS2phFF0+ykflI/AFTmoikSMRBw0aVb/AuRP9A4IgKEW/oUlQkkYDR4Ig0UiloHIS0dyJIx+IouDb7nXvezzZjXtnHs+CwzluP/mWe++1vn0Uv2aAjKEU7rKF7AlyiV9eXpDL5aDVaoXwH4zHY0QiEWxtbQkR6cEEb25uEI/HsbGxgX6/D6VSyWSHwyFKpRJsNpuwXHowwbu7O5ydnWF3dxd+vx/tdhvpdBqDwQCPj4+wWCwoFAqoVCpQq9XCT5eHz89P6HQ65iISjMViOD4+xvX1NS/yeDzo9Xp4enpigoFAAPf39z/aYBmYTCZwOBx4e3uDmA4qa7PZxMfHB6rVqhD9wsHBAbfA2tqaEFkeKINGo5GfOYOpVIpLrNfrOWtElp6pxM/Pz7Barbx4FWCb2d7exv7+PtxuN3w+H7xeL/b29jgmRc/9D5xBSuloNIJKpRLCwCyM6XTKzbpKiDZzenqKzc1NJsZfKBRsM+SRq7QZLjGVUaPRcLZMJhM3KH1eX1/nfiSQssi46S7FRXsRRJshoz48PMTt7S2rmSxn0WbC4TDy+bxkNkPCJFsTz2Iq7VwQJJq/0el0mLhUV6vV4n3FDJ6fnzMxyhb9g1qt9u0kodOFhES9uWxQsmgf2pcJXl1dIRqN8lBAyiWQoong+/s77HY7x1YBJtjtdtFoNH54HmVyZ2dHkqz9C0yQhJDJZL553izMJaUTxmAwCFHpwQTnPrh41BFZ8sHX11d5jFtE0OVyIRgMsoouLy95NpyLJJvNolwuSzZu0WASCoW+CNK4dXR0hEQiwYtkN26Rauv1OorFIguGsCiOk5MTOJ1Oycat+WsGZzCZTLIYqO8Wx635WbzKcYsJPjw8gEgSqTlmYT4PLy4uYDabhaj0YILCsywh+/dimRMEfgOlXhnhBkvQ9QAAAABJRU5ErkJggg==",
+    "properties": {
+      "globalResultsPerPage": "50",
+      "everythingNoResults": "Nothing here matches your search",
+      "everythingNoSearchText": "Please type search text to see results",
+      "peopleNoResults": "Nothing here matches your search",
+      "filters": []
+    }
+  }]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Derrick",
+    "id": "7182fd40-0fb1-461c-bdc4-321626d96e1e",
+    "version": "1.5.0.0",
+    "iconPath": "assets/AppIcon.png",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/derrick.sppkg"
+  }
+}

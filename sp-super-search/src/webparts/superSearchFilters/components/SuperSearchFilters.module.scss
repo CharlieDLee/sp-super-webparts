@@ -1,0 +1,46 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.superSearchFilters {
+  width: calc(100% - 32px);
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  background: #f3f3f3;
+
+  .title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  .noFilters {
+    margin-top: 15px;
+    text-align: center;
+    color: #b1b1b1;
+  }
+  .filters {
+    padding: 15px 0;
+    border-bottom: 1px solid #c5e2e2;
+
+    .name {
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .filter {
+      padding: 5px 0;
+      font-weight: 700;
+      color: rgb(102, 102, 102);
+    }
+    .spacer {
+      display: inline-block;
+      padding: 0 3px;
+    }
+  }
+  .button {
+    color: #019390;
+    font-size: 12px;
+    display: inline-block;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

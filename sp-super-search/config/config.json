@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "super-search-box-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/superSearchBox/SuperSearchBoxWebPart.js",
+          "manifest": "./src/webparts/superSearchBox/SuperSearchBoxWebPart.manifest.json"
+        }
+      ]
+    },
+    "super-search-results-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/superSearchResults/SuperSearchResultsWebPart.js",
+          "manifest": "./src/webparts/superSearchResults/SuperSearchResultsWebPart.manifest.json"
+        }
+      ]
+    },
+    "super-search-filters-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/superSearchFilters/SuperSearchFiltersWebPart.js",
+          "manifest": "./src/webparts/superSearchFilters/SuperSearchFiltersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "sp-pnp-js": "https://cdnjs.cloudflare.com/ajax/libs/sp-pnp-js/2.0.8/pnp.min.js"
+  },
+  "localizedResources": {
+    "SuperSearchBoxWebPartStrings": "lib/webparts/superSearchBox/loc/{locale}.js",
+    "SuperSearchResultsWebPartStrings": "lib/webparts/superSearchResults/loc/{locale}.js",
+    "SuperSearchFiltersWebPartStrings": "lib/webparts/superSearchFilters/loc/{locale}.js"
+  }
+}

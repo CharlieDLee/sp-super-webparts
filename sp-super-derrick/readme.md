@@ -4,9 +4,9 @@
 
 This solution allows you to run Derrick on SharePoint page. You can simply change his settings directly from web part properties.
 
-![Derrick web part 01](./assets/preview01.png)
+![Derrick web part 01](./assets/preview01.jpg)
 
-![Derrick web part 02](./assets/preview02.png)
+![Derrick web part 02](./assets/preview02.jpg)
 
 ### Features
 

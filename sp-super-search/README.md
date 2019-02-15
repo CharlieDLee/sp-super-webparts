@@ -62,6 +62,19 @@ This package produces the following:
 * dist/* - the bundled script, along with other resources
 * deploy/* - all resources which should be uploaded to a CDN.
 
+### Additional resources 
+
+* [Overview of the SharePoint Framework](http://dev.office.com/sharepoint/docs/spfx/sharepoint-framework-overview)
+* [SharePoint Framework development tools and libraries](http://dev.office.com/sharepoint/docs/spfx/tools-and-libraries)
+* [SharePoint Framework Reference](https://sharepoint.github.io/)
+* [Cielo Costa Blog](https://cielocosta.com/our-blog)
+
+Blog posts of using building these samples will soon be created at the link above - keep posted.
+
+Please feel free to get in touch on Twitter [@CieloCostaUK](https://twitter.com/CieloCostaUK).
+
+> Sharing is caring!
+
 ###  Disclaimer
 
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.

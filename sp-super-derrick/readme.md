@@ -4,9 +4,9 @@
 
 This solution allows you to run Derrick on SharePoint page. You can simply change his settings directly from web part properties.
 
-![Derrick web part 01](./assets/preview01.jpg)
+![Derrick web part 01](./assets/preview01.JPG)
 
-![Derrick web part 02](./assets/preview02.jpg)
+![Derrick web part 02](./assets/preview02.JPG)
 
 ### Features
 
@@ -29,7 +29,8 @@ You will need the following:
 * NPM (v3 or above)
 * Visual Studio Code (recommended)
 
-## Used SharePoint Framework Version 
+## Using SharePoint Framework Version 
+
 ![drop](https://img.shields.io/badge/drop-1.6.0-green.svg)
 
 ### Building Derrick

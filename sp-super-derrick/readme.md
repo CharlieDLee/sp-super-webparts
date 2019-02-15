@@ -2,9 +2,11 @@
 
 ### Summary
 
-This solution allows you to run Derrick on SharePoint page. You can simply change his settings directly from web part properties.
+This solution allows you to run our Microsoft Cognitive Services powered digital assistant, Derrick, on SharePoint page. He appears as a discrete image on the bottom right of the page with a summary introduction message as follows:
 
 ![Derrick web part 01](./assets/preview01.JPG)
+
+When clicked on, he can be asked questions. He is pre-loaded with 1000's of Office 365 knowledge base items. Additionally, you can add your own Microsoft Azure Cognitive services knowledge base items to his knowledge using the web part properties.
 
 ![Derrick web part 02](./assets/preview02.JPG)
 

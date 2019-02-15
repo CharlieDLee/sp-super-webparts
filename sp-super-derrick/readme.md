@@ -31,7 +31,7 @@ You will need the following:
 * NPM (v3 or above)
 * Visual Studio Code (recommended)
 
-## Using SharePoint Framework Version 
+### Using SharePoint Framework Version 
 
 ![drop](https://img.shields.io/badge/drop-1.6.0-green.svg)
 

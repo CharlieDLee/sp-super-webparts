@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "Super Search",
+    "name": "CC Super Search",
     "id": "2079ac85-4940-4c9e-9e49-e6abe29e0763",
     "version": "2.2.0.7",
     "iconPath": "assets/AppIcon.png",
@@ -14,6 +14,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/cc-search.sppkg"
+    "zippedPackage": "solution/cc-super-search.sppkg"
   }
 }
